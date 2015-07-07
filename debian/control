@@ -1,0 +1,14 @@
+Source: mlat-client-config-demo
+Section: embedded
+Priority: extra
+Maintainer: Oliver Jowett <oliver@mutability.co.uk>
+Build-Depends: debhelper(>=8)
+Standards-Version: 3.9.3
+Homepage: https://github.com/mutability/mlat-client-config-demo
+Vcs-Git: https://github.com/mutability/mlat-client-config-demo.git
+
+Package: mlat-client-config-demo
+Architecture: all
+Depends: mlat-client(=0.2.2), adduser
+Description: Multilateration client config package example.
+ An example package that provides a custom mlat-client config.
